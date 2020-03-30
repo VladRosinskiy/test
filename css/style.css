@@ -92,7 +92,8 @@ a {
 	transition: 0.2s all linear;
 }
 .btns:hover {
-	background-color: #998675;
+	/*background-color: #998675;*/
+	background-color: #fff;
 }
 /*Section about*/
 .about {
