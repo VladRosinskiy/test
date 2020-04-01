@@ -92,8 +92,7 @@ a {
 	transition: 0.2s all linear;
 }
 .btns:hover {
-	/*background-color: #998675;*/
-	background-color: #fff;
+	background-color: #998675;
 }
 /*Section about*/
 .about {
@@ -159,8 +158,8 @@ font-size: 20px;
 }
 .subtitle-video {
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
-	color: white;
+	font-weight: 600;
+	color: #615855;
 	display: flex;
 	justify-content: center;
 	text-align: center;
@@ -181,4 +180,36 @@ font-size: 20px;
 	text-align: justify;
 	position: relative;
 	top: 30%;
+}
+.btn-top{
+	top: 50%;
+}
+.h-bg {
+	height: 120px;
+}
+.hand {
+	margin: 30px;
+}
+@media screen and (max-width : 576px){
+ .btns {
+ 	bottom: 10%
+ }
+ .title-header {
+ 	font-size: 30px;
+ 	margin: 5px;
+ }
+ .h-bg {
+ 	height: 250px;
+ }
+ .btn-top{
+ 	position: relative;
+ 	bottom: 10%;
+ }
+ .subtitle-video{
+ 	margin-bottom: 5px;
+ }
+ .title-video {
+ 	font-size: 25px;
+ }
+
 }
